@@ -1,14 +1,15 @@
 # om_admin
 om_admin is a lightweight MVC  pattern with control roles management API base framework in Go (Golang) for building fast, scalable and robust database-driven web applications.
 
-Features
+# Features:
  Postgres, MySQL, SQLite and Foundation database support
  Modular (you can choose which components to use)
  Middleware support. All compatible Middleware works out of the box
  Gopher spirit (write golang, use all the golang libraries you like)
  Lightweight. Only MVC
  Multiple configuration files support (currently json, yaml, toml and hcl)
-Overview
+
+# Overview
 om is a lightweight MVC framework. It is based on the principles of simplicity, relevance and elegance.
 
 Simplicity. The design is simple, easy to understand, and doesn't introduce many layers between you and the standard library. It is a goal of the project that users should be able to understand the whole framework in a single day.
@@ -22,14 +23,14 @@ After two years of playing with golang, I have looked on some of my projects and
 
 So, om is my reimagining of lightweight MVC, that maintains the golang spirit, and works seamlessly with the current libraries.
 
-Installation
+# Installation
 om works with Go 1.4+
 
-Tutorials
+# Tutorials
 Contributing
 Start with clicking the star button to make the author and his neighbors happy. Then fork the repository and submit a pull request for whatever change you want to be added to this project.
 
-Application Package Flow
+# Application Package Flow
 	-> 	main 
 	-> 	handlers 
 	-> 	utilities
@@ -46,7 +47,8 @@ maximum performance, capability, and flexibility in the smallest, lightest possi
 
 If you have any questions, just open an issue.
 
-Author
+# Author
 Manish Paneri
 
-Blog : @manishpaneri
+# Blog : 
+https://manishpaneri.blogspot.com
